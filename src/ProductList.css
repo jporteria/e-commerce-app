@@ -38,7 +38,10 @@ body {
     text-decoration: none;
    
 }
-
+div > h1{
+    color: white;
+    text-shadow: 2px 2px #45a049;
+}
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -46,7 +49,13 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(0.8);
 }
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
